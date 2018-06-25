@@ -1,2 +1,3 @@
 def pizzatest
+    pizzarr = []
 end
