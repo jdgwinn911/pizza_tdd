@@ -1,3 +1,4 @@
 def pizzatest
-    pizzarr = []
+    meats = ["pepperoni", "sausage", "ham", "bacon", "chicken", "beef-wellington"]
+    meats[0..5]
 end

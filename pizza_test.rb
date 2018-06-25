@@ -11,6 +11,10 @@ class PizzaTest < Minitest::Test
         assert_equal(Array, pizzatest().class)
     end
 
+    def test_if_meats_array_has_value
+        assert_equal("sausage", pizzatest()[1])
+    end
+
 
 
 
